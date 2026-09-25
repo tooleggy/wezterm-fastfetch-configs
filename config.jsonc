@@ -17,9 +17,21 @@
       "key": "OS",
       "keyColor": "blue"
     },
-    "host",
-    "kernel",
-    "uptime",
+    {
+      "type": "host",
+      "key": "Host",
+      "keyColor": "white"
+    },
+    {
+      "type": "kernel",
+      "key": "Kernel",
+      "keyColor": "blue"
+    },
+    {
+      "type": "uptime",
+      "key": "Uptime",
+      "keyColor": "green"
+    },
     "packages",
     "shell",
     "de",
@@ -29,15 +41,35 @@
     "icons",
     "font",
     "cursor",
-    "terminal",
+    {
+      "type": "terminal",
+      "key": "Terminal",
+      "keyColor": "black"
+    },
     "terminalfont",
-    "cpu",
-    "gpu",
+    {
+      "type": "cpu",
+      "key": "CPU",
+      "keyColor": "red"
+    },
+    {
+      "type": "gpu",
+      "key": "GPU",
+      "keyColor": "green"
+    },
     "memory",
     "swap",
     "disk",
-    "player",
-    "media",
+    {
+      "type": "player",
+      "key": "Player",
+      "keyColor": "green"
+    },
+    {
+      "type": "media",
+      "key": "Media",
+      "keyColor": "green"
+    },
     "netio",
     "break",
     {
